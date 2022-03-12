@@ -1,0 +1,180 @@
+.top {
+  background: #a9bfb0;
+ 
+ }
+
+.imagem-logo {
+   margin-left: 10px;
+}
+#responsive-navbar-nav{
+   justify-content: end;
+
+}
+.text-color {
+  background: black;
+  box-shadow: 3px 3px 3px green;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: background-color 2s;
+  font-size: 1.7rem;
+}
+
+.text-color:hover {
+  background-color: blue;
+}
+.circular {
+  border: 1px solid black;
+  margin: left 5px;
+  margin-right: 0px;
+}
+.circle {
+  text-align: center;
+  padding: 10px;
+  background-color:#a9bfb0;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
+}
+.titulos {
+  font-size: 2rem;
+  color: green;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.fundo-site {
+  background-image: url("../../public/img/fundo4.webp");
+}
+.album {
+  background-image: url("../../public/img/fundo4.webp");
+}
+.photo-album {
+  border: 2px solid white;
+  box-shadow: 3px 3px 3px white;
+}
+.description {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  padding: 10px;
+  margin-right: 5px;
+}
+.slide-social{
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 5px;
+}
+
+.card-image{
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
+  border-radius: 5px;
+}
+
+.icones {
+  padding: 10px;
+  font-size: 2rem;
+  margin-top: 0px;
+}
+.marketing {
+   text-align: center;
+  margin-top: 45px;
+  padding: 10px;
+}
+.rodape{
+  background-color:#a9bfb0;
+  padding-top:35px;
+  padding-bottom:35px;
+  text-align: center;
+  color: green;
+  font-size: 1.5rem; 
+}
+.footer{
+  margin-bottom:0px;
+  margin-top: 0px;
+}
+.featurette{
+  text-align: justify;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  .map{
+    width: 100%;
+    height: 400px;
+  }
+.map-marker{
+  width: 200px;
+  height:auto;
+  margin-top:  -60px;
+  padding:20px;
+  color:blue;
+  font-size:2rem;
+ }
+
+ /* estilos pagina de contatos */
+.contact {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+.icones-contato {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.title-icones {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* text-align: center; */
+  padding: 5px;
+}
+.icons-contact{
+  font-size: 3.5rem;
+}
+.whatsapp{
+  background:green;
+  width: 80px;
+  height: 80px;
+  padding:5px;
+  border-radius:10px;
+  border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+
+
+}
+.facebook{
+  width: 80px;
+  height: 80px;
+  background: blue;
+  padding:5px;
+  border-radius:10px;
+    border: 1px solid black;
+      box-shadow: 3px 3px 3px black;
+
+ 
+}
+.instagran{
+  background: #D02D20;
+   width: 80px;
+  height: 80px;
+  padding:5px;
+  border-radius:10px;
+  border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+
+
+}
+@media (max-width: 768px){
+.contact{
+    grid-template-columns: 1fr;
+}
+.contact .icones-contato:nth-child(2){
+    margin: 15px 0;
+}
+}
