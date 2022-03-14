@@ -1,4 +1,3 @@
-import { ImWhatsapp } from "react-icons/im";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa"; 
 
@@ -17,7 +16,7 @@ function Contact() {
               className="icons-contact"
             >
               
-              <ImWhatsapp className="whatsapp" />
+              <img src="./img/whatsapp.png" alt="icone WhatsApp" className="whatsapp"/>
             </a>
             <span className="title-icones">WhatsApp</span>
             <p>
