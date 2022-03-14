@@ -11,7 +11,8 @@ function Contact() {
         <div className="container-fluid contact">
           <div className="icones-contato">
             <a
-              href="https://api.whatsapp.com/send?phone=+5511974751884"
+              href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
+              informações%20sobre%20hospedagem."
               target="blank"
               className="icons-contact"
             >
