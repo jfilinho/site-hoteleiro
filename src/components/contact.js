@@ -15,8 +15,11 @@ function Contact() {
               target="blank"
               className="icons-contact"
             >
-              
-              <img src="./img/whatsapp.png" alt="icone WhatsApp" className="whatsapp"/>
+              <img
+                src="./img/whatsapp.png"
+                alt="icone WhatsApp"
+                className="whatsapp"
+              />
             </a>
             <span className="title-icones">WhatsApp</span>
             <p>
@@ -30,7 +33,11 @@ function Contact() {
               target="blank"
               className="icons-contact"
             >
-              <FaFacebookF className="facebook" />
+              <img
+                src="./img/facebook.png"
+                alt="icone facebook"
+                className="facebook"
+              />
             </a>
             <span className="title-icones">Facebook</span>
             <p>
@@ -44,7 +51,10 @@ function Contact() {
               target="blank"
               className="icons-contact"
             >
-              <FaInstagram className="instagran" />
+              <img src=".img/instagram.png"
+               alt="icone instagram"
+               className="instagram"
+               />
             </a>
             <span className="title-icones">Instagram</span>
             <p>
