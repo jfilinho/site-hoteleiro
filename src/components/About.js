@@ -28,8 +28,8 @@ function About(){
               <img
                 className="bd-placeholder-img rounded-circle circle"
                 alt="img-circle"
-                width="390"
-                height="390"
+                width="380"
+                height="380"
                 src="./img/logo.gif"
               />
             </div>
