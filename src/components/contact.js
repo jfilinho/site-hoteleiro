@@ -11,10 +11,11 @@ function Contact() {
         <div className="container-fluid contact">
           <div className="icones-contato">
             <a
-              href="https:/contate.me/hoteltulipa"
+              href="https://api.whatsapp.com/send?phone=+5511974751884"
               target="blank"
               className="icons-contact"
             >
+              
               <ImWhatsapp className="whatsapp" />
             </a>
             <span className="title-icones">WhatsApp</span>
