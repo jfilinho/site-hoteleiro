@@ -15,10 +15,7 @@ function Album(){
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
-                  />
-                 
-
-                  
+                  />                 
                 </div>
               </div>
               <div className="col">
@@ -31,9 +28,7 @@ function Album(){
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
-                  />
-                  
-                    
+                  />                    
                 </div>
               </div>
               <div className="col">
@@ -47,10 +42,7 @@ function Album(){
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-                 
-
-                  
-                </div>
+                 </div>
               </div>
 
               <div className="col">
@@ -64,10 +56,7 @@ function Album(){
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-                  
-
-                 
-                </div>
+                  </div>
               </div>
               <div className="col">
                 <div className="card shadow-sm photo-album">
@@ -80,10 +69,7 @@ function Album(){
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-                  
-
-                
-                </div>
+              </div>
               </div>
               <div className="col">
                 <div className="card shadow-sm photo-album">
@@ -96,10 +82,7 @@ function Album(){
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-                 
-
-                  
-                </div>
+                 </div>
               </div>
 
               <div className="col">
@@ -113,10 +96,7 @@ function Album(){
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
-
-                 
-                </div>
+                  </div>
               </div>
               <div className="col">
                 <div className="card shadow-sm photo-album">
@@ -129,10 +109,7 @@ function Album(){
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
-
-                  
-                </div>
+                  </div>
               </div>
               <div className="col">
                 <div className="card shadow-sm photo-album">
@@ -145,10 +122,7 @@ function Album(){
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-                 
-
-                 
-                </div>
+                 </div>
               </div>
             </div>
           </div>
