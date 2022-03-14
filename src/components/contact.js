@@ -51,7 +51,7 @@ function Contact() {
               target="blank"
               className="icons-contact"
             >
-              <img src=".img/instagram.png"
+              <img src="./img/instagram.png"
                alt="icone instagram"
                className="instagram"
                />
