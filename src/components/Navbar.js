@@ -6,7 +6,7 @@ import { AiFillInfoCircle } from "react-icons/ai";
 import { MdBedroomChild } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
 
-function op() {
+function Top() {
   return (
     <Nav collapseOnSelect expand="lg" className="top mb-3">
       <div className="container-fluid">
