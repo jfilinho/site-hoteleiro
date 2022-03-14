@@ -19,7 +19,7 @@ function Feature() {
               <Carousel.Item interval={2000}>
                 <img
                   className="slide-social w-100"
-                  src="./img/capa1.png"
+                  src="./img/capa1.jpg"
                   alt="First foto"
                   height="497"
                 />
