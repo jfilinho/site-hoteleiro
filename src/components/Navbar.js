@@ -6,16 +6,16 @@ import { AiFillInfoCircle } from "react-icons/ai";
 import { MdBedroomChild } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
 
-function Top() {
+function op() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="top mb-3">
+    <Nav collapseOnSelect expand="lg" className="top mb-3">
       <div className="container-fluid">
         <Navbar.Brand href="/home">
           <img
             src="./img/logo.png"
             alt="logo"
-            width="auto"
-            height="90"
+            width="150"
+            height="100"
             className="imagem-logo"
           />
         </Navbar.Brand>
@@ -65,7 +65,7 @@ function Top() {
           </Nav>
         </Navbar.Collapse>
       </div>
-    </Navbar>
+    </Nav>
   );
 }
 export default Top;
