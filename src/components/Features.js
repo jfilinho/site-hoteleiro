@@ -117,8 +117,8 @@ function Feature() {
             <Card>
               <img
                 className="card-image"
-                src="./img/imagem3.jpg"
-                alt="First foto"
+                src="./img/hotel_tulipa2.jpg"
+                alt="foto logo hotel tulipa"
                 height="500"
               />
             </Card>
