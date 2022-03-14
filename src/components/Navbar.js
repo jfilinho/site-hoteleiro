@@ -8,7 +8,7 @@ import { IoMdContact } from "react-icons/io";
 
 function Top() {
   return (
-    <Nav collapseOnSelect expand="lg" className="top mb-3">
+    <Navbar collapseOnSelect expand="lg" className="top mb-3">
       <div className="container-fluid">
         <Navbar.Brand href="/home">
           <img
@@ -65,7 +65,7 @@ function Top() {
           </Nav>
         </Navbar.Collapse>
       </div>
-    </Nav>
+    </Navbar>
   );
 }
 export default Top;
