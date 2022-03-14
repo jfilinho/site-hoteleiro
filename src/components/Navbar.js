@@ -15,7 +15,7 @@ function Top() {
             src="./img/logo.png"
             alt="logo"
             width="auto"
-            height="100"
+            height="95"
             className="imagem-logo"
           />
         </Navbar.Brand>
