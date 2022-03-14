@@ -7,7 +7,7 @@ function Slide() {
           <Carousel.Item interval={2000}>
             <img
               className="d-block w-100 fluid "
-              src="./img/imagem3.jpg"
+              src="./img/capa.jpg"
               alt="First slide"
               height="550"
             />
