@@ -15,7 +15,7 @@ function Slide() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/paisagem.webp"
+              src="./img/capa1.jpg"
               alt="Second slide"
               height="550"
             />

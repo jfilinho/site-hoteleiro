@@ -19,7 +19,7 @@ function Feature() {
               <Carousel.Item interval={2000}>
                 <img
                   className="slide-social w-100"
-                  src="./img/imagem3.jpg"
+                  src="./img/capa1.png"
                   alt="First foto"
                   height="497"
                 />
@@ -27,7 +27,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/paisagem.webp"
+                  src="./img/espaco7.jpg"
                   alt="Second foto"
                   height="497"
                 />
@@ -35,7 +35,63 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/imagem1.webp"
+                  src="./img/espaco8.jpg"
+                  alt="Third slide"
+                  height="497"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="slide-social w-100"
+                  src="./img/espaco5.jpg"
+                  alt="Third slide"
+                  height="497"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="slide-social w-100"
+                  src="./img/espaco9.jpg"
+                  alt="Third slide"
+                  height="497"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="slide-social w-100"
+                  src="./img/espaco3.jpg"
+                  alt="Third slide"
+                  height="497"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="slide-social w-100"
+                  src="./img/espaco11.jpg"
+                  alt="Third slide"
+                  height="497"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="slide-social w-100"
+                  src="./img/espaco6.jpg"
+                  alt="Third slide"
+                  height="497"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="slide-social w-100"
+                  src="./img/espaco4.jpg"
+                  alt="Third slide"
+                  height="497"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="slide-social w-100"
+                  src="./img/espaco2.jpg"
                   alt="Third slide"
                   height="497"
                 />
@@ -53,7 +109,8 @@ function Feature() {
             <h2 className="featurette-heading">Aberto 24 horas.</h2>
             <p className="lead">
               Funcionamos a todo momento, para te atender em todos os momentos.
-              Ligue e faça sua reserva pelo telefone, ou entre em contato pelo WhatsApp.
+              Ligue e faça sua reserva pelo telefone, ou entre em contato pelo
+              WhatsApp.
             </p>
           </div>
           <div className="col-md-6">
