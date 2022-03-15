@@ -84,9 +84,7 @@
   padding: 10px;
 }
 .rodape {
-  display: flex;
-  justify-content: space-around;
-  background-color: #a9bfb0;
+   background-color: #a9bfb0;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -95,8 +93,8 @@
 }
 .footer {
   position: fixed;
-  margin-bottom: 0px;
-  margin-top: 2px;
+  bottom: 0px;
+  top: 2px;
   width: 100%;
 }
 .featurette {
