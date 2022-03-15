@@ -1,14 +1,12 @@
 .top {
   background: #a9bfb0;
- 
- }
+}
 
 .imagem-logo {
-   margin-left: 10px;
+  margin-left: 10px;
 }
-#responsive-navbar-nav{
-   justify-content: end;
-
+#responsive-navbar-nav {
+  justify-content: end;
 }
 .text-color {
   background: black;
@@ -33,7 +31,7 @@
 .circle {
   text-align: center;
   padding: 2px;
-  background-color:#a9bfb0;
+  background-color: #a9bfb0;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
 }
@@ -46,6 +44,9 @@
 }
 .fundo-site {
   background-image: url("../../public/img/fundo4.webp");
+  min-height: 100%;
+  position: relative;
+  width: 100%;
 }
 .album {
   background-image: url("../../public/img/fundo4.webp");
@@ -61,13 +62,13 @@
   padding: 10px;
   margin-right: 5px;
 }
-.slide-social{
+.slide-social {
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
   border-radius: 5px;
 }
 
-.card-image{
+.card-image {
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
   border-radius: 5px;
@@ -79,41 +80,42 @@
   margin-top: 0px;
 }
 .marketing {
-   text-align: center;
+  text-align: center;
   margin-top: 45px;
   padding: 10px;
 }
-.rodape{
-  background-color:#a9bfb0;
-  padding-top:20px;
-  padding-bottom:20px;
+.rodape {
+  background-color: #a9bfb0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   color: green;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
-.footer{
-  margin-bottom:0px;
-  margin-top: 0px;
+.footer {
+  position: absolute;
+  margin-bottom: 0px;
+  width: 100%;
 }
-.featurette{
+.featurette {
   text-align: justify;
   align-items: center;
   margin-bottom: 10px;
-  }
-  .map{
-    width: 100%;
-    height: 400px;
-  }
-.map-marker{
+}
+.map {
+  width: 100%;
+  height: 400px;
+}
+.map-marker {
   width: 200px;
-  height:auto;
-  margin-top:  -60px;
-  padding:20px;
-  color:blue;
-  font-size:2rem;
- }
+  height: auto;
+  margin-top: -60px;
+  padding: 20px;
+  color: blue;
+  font-size: 2rem;
+}
 
- /* estilos pagina de contatos */
+/* estilos pagina de contatos */
 .contact {
   width: 100%;
   margin: 0 auto;
@@ -134,49 +136,55 @@
   /* text-align: center; */
   padding: 5px;
 }
-.icons-contact{
+.icons-contact {
   font-size: 3.5rem;
 }
-.whatsapp{
-
+.telefone {
   width: 80px;
   height: 80px;
-  border-radius:10px;
+  border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
 }
-.whatsapp-link{
+.whatsapp {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
+}
+.whatsapp-link {
   position: fixed;
- width: 60px;
+  width: 60px;
   height: 60px;
-  border-radius:50px;
+  border-radius: 50px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
-  z-index: 1000; 
 }
-.facebook{
+.facebook {
   width: 80px;
   height: 80px;
-  border-radius:10px;
+  border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
-
- 
 }
-.instagram{
+.instagram {
   width: 80px;
   height: 80px;
-  border-radius:10px;
+  border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
-
-
 }
-@media (max-width: 768px){
-.contact{
+
+@media (max-width: 768px) {
+  .contact {
     grid-template-columns: 1fr;
-}
-.contact .icones-contato:nth-child(2){
+  }
+  .contact .icones-contato:nth-child(2) {
     margin: 15px 0;
+  }
 }
+a[href^="”tel”"]:before {
+  content: “\260e”;
+  margin-right: 0.5em;
 }

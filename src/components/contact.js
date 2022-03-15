@@ -4,8 +4,24 @@ function Contact() {
 
     return (
       <div>
-        <h2 className="titulos">Entre em contatos:</h2>
+        <h2 className="titulos">Entre em contato:</h2>
         <div className="container-fluid contact">
+          <div className="icones-contato">
+            <a
+              href="tel:+5501126823847"
+              target="blank"
+              className="icons-contact"
+            >
+              <img
+                src="./img/telefone.png"
+                alt="icone telefone"
+                className="telefone"
+              />
+            </a>
+            <span className="title-icones">Telefone</span>
+            <span>(11) 2682-3847</span>
+            <p>Entre em contato pelo nosso telefone.</p>
+          </div>
           <div className="icones-contato">
             <a
               href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
@@ -21,8 +37,8 @@ function Contact() {
             </a>
             <span className="title-icones">WhatsApp</span>
             <p>
-              Entre em contato pelo whatsapp a qualquer momento, te atendemos
-               e tiramos suas dúvidas.
+              Entre em contato pelo whatsapp a qualquer momento, tire suas
+              dúvidas!
             </p>
           </div>
           <div className="icones-contato">
@@ -38,9 +54,7 @@ function Contact() {
               />
             </a>
             <span className="title-icones">Facebook</span>
-            <p>
-              Conheça também a nossa página no facebook. 
-            </p>
+            <p>Conheça também a nossa página do facebook.</p>
           </div>
           <div className="icones-contato">
             <a
@@ -48,15 +62,14 @@ function Contact() {
               target="blank"
               className="icons-contact"
             >
-              <img src="./img/instagram.jpg"
-               alt="icone instagram"
-               className="instagram"
-               />
+              <img
+                src="./img/instagram.jpg"
+                alt="icone instagram"
+                className="instagram"
+              />
             </a>
             <span className="title-icones">Instagram</span>
-            <p>
-              Siga nossa página do instagram!!.
-            </p>
+            <p>Siga nossa página do instagram!!</p>
           </div>
         </div>
       </div>

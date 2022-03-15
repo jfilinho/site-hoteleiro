@@ -15,7 +15,7 @@ function Marketing() {
 
             <h2>Academia</h2>
             <p className="paragraphs">
-              Some representative placeholder content for the three columns of
+              Academia smartfit a 200 metros do hotel.
               text below the carousel. This is the first column.
             </p>
           </div>
@@ -31,8 +31,7 @@ function Marketing() {
 
             <h2>Mercado</h2>
             <p>
-              Another exciting bit of representative placeholder content. This
-              time, we've moved on to the second column.
+              Mercado extra do lado do nosso estabelecimento.
             </p>
           </div>
           {/* <!-- /.col-lg-4 --> */}
@@ -47,8 +46,7 @@ function Marketing() {
 
             <h2>Shooping</h2>
             <p>
-              And lastly this, the third column of representative placeholder
-              content.
+              Shooping Center da Penha localizado a 1,5km.
             </p>
           </div>
           <div className="col-lg-4">
@@ -62,8 +60,7 @@ function Marketing() {
 
             <h2>Metrô</h2>
             <p>
-              And lastly this, the third column of representative placeholder
-              content.
+              Próximo a estação do metrô Vila Matilde da linha vermelha.
             </p>
           </div>
           <div className="col-lg-4">
@@ -77,8 +74,7 @@ function Marketing() {
 
             <h2>Centro</h2>
             <p>
-              And lastly this, the third column of representative placeholder
-              content.
+              Próximo ao centro comercial da Penha.
             </p>
           </div>
           <div className="col-lg-4">
@@ -92,8 +88,7 @@ function Marketing() {
 
             <h2>Restaurante</h2>
             <p>
-              And lastly this, the third column of representative placeholder
-              content.
+              Restaurante e panificadora ao lado do hotel.
             </p>
           </div>
 
