@@ -11,7 +11,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="fundo-site">
-    <Slide/> 
+      <Slide />
       <Top />
       <div>
         <Routes>
@@ -21,7 +21,19 @@ function App() {
           <Route path="/contato" element={<Contato />} />
         </Routes>
       </div>
-      <Rodape/>
+      <a
+        href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
+              informações%20sobre%20hospedagem."
+        target="blank"
+        className="icons-contact"
+      >
+        <img
+          src="./img/whatsapp.png"
+          alt="icone WhatsApp"
+          className="whatsapp"
+        />
+      </a>
+      <Rodape />
     </div>
   );
 }
