@@ -48,7 +48,6 @@
   background-image: url("../../public/img/fundo4.webp");
   height: 100%;
   width: 100%;
-  margin-bottom: 40px;
 }
 .album {
   background-image: url("../../public/img/fundo4.webp");
@@ -95,7 +94,7 @@
 }
 .footer {
   position: fixed;
-  bottom: 0px;
+  margin-bottom: 0px;
   width: 100%;
 }
 .featurette {

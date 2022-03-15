@@ -108,9 +108,8 @@ function Feature() {
           <div className="col-md-6">
             <h2 className="featurette-heading">Aberto 24 horas.</h2>
             <p className="lead">
-              Funcionamos 24 horas para te atender em todos os momentos.
-              Ligue e faça sua reserva pelo telefone, ou entre em contato pelo
-              WhatsApp.
+              Funcionamos 24 horas para te atender em todos os momentos. Ligue e
+              faça sua reserva pelo telefone, ou entre em contato pelo WhatsApp.
             </p>
           </div>
           <div className="col-md-6">
@@ -122,6 +121,20 @@ function Feature() {
                 height="500"
               />
             </Card>
+          </div>
+          <div className="whatsapp-link">
+            <a
+              href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
+              informações%20sobre%20hospedagem."
+              target="blank"
+              className="icons-contact"
+            >
+              <img
+                src="./img/whatsapp.png"
+                alt="icone WhatsApp"
+                className="whatsapp"
+              />
+            </a>
           </div>
         </div>
       </div>
