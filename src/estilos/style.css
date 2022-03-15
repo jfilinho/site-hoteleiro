@@ -1,5 +1,6 @@
 .top {
   background: #a9bfb0;
+  align-items: center;
 }
 
 .imagem-logo {
@@ -59,9 +60,8 @@
   font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
-  padding: 10px;
-  margin-right: 5px;
-}
+  padding: 5px;
+ }
 .slide-social {
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
@@ -85,6 +85,8 @@
   padding: 10px;
 }
 .rodape {
+  display: flex;
+  justify-content: space-around;
   background-color: #a9bfb0;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -95,6 +97,7 @@
 .footer {
   position: absolute;
   margin-bottom: 0px;
+  margin-top: 2px;
   width: 100%;
 }
 .featurette {
@@ -140,6 +143,7 @@
   font-size: 3.5rem;
 }
 .telefone {
+  background: #a9bfb0;
   width: 80px;
   height: 80px;
   border-radius: 10px;
@@ -149,6 +153,7 @@
 .whatsapp {
   width: 80px;
   height: 80px;
+  padding:2px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
@@ -160,6 +165,7 @@
   border-radius: 50px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
+  padding:2px;
 }
 .facebook {
   width: 80px;
@@ -167,6 +173,7 @@
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
+  padding:2px;
 }
 .instagram {
   width: 80px;
@@ -174,6 +181,7 @@
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
+  padding:2px;
 }
 
 @media (max-width: 768px) {
@@ -182,6 +190,10 @@
   }
   .contact .icones-contato:nth-child(2) {
     margin: 15px 0;
+  }
+  .footer {
+    margin-bottom: 0px;
+    margin-top: 2px;
   }
 }
 a[href^="”tel”"]:before {

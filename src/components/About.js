@@ -4,7 +4,7 @@ function About(){
     return (
       <div>
         <h2 className="titulos">SOBRE</h2>
-        <div className="container-fluid d-flex justify-content-center  mt-5 mb-5">
+        <div className="container-fluid d-flex justify-content-center  mt-3 mb-3">
           <div className="row">
             <div className="col">
               <p className="description">
@@ -18,15 +18,15 @@ function About(){
               <p className="description">
                 Venha conhecer o nosso espaço, estamos funcionando 24 horas para
                 te atender da melhor forma possível. Entre em contato com a gente pelo
-                 whatsApp,telefone, facebook e instagram.
+                 whatsApp,telefone, facebook ou instagram.
               </p>
             </div>
             <div className="col-md-auto d-flex justify-content-center align-items-center">
               <img
                 className="bd-placeholder-img rounded-circle circle"
                 alt="img-circle"
-                width="380"
-                height="380"
+                width="350"
+                height="350"
                 src="./img/Hotel_Tulipa.gif"
               />
             </div>

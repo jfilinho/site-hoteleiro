@@ -16,8 +16,7 @@ function Marketing() {
             <h2>Academia</h2>
             <p className="paragraphs">
               Academia smartfit a 200 metros do hotel.
-              text below the carousel. This is the first column.
-            </p>
+             </p>
           </div>
           {/* <!-- /.col-lg-4 --> */}
           <div className="col-lg-4">

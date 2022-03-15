@@ -8,7 +8,7 @@ function Contact() {
         <div className="container-fluid contact">
           <div className="icones-contato">
             <a
-              href="tel:+5501126823847"
+              href="tel:+551126823847"
               target="blank"
               className="icons-contact"
             >

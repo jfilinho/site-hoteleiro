@@ -8,7 +8,7 @@ import { IoMdContact } from "react-icons/io";
 
 function Top() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="top mb-3">
+    <Navbar collapseOnSelect expand="lg" className="top">
       <div className="container-fluid">
         <Navbar.Brand href="/home">
           <img

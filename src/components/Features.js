@@ -103,12 +103,12 @@ function Feature() {
 
       {/* fim da primeira feature */}
       <div className="container-fluid">
-        <h2 className="titulos">Como Trabalhamos ?</h2>
+        <h2 className="titulos">Como Trabalhamos?</h2>
         <div class="row featurette">
           <div className="col-md-6">
             <h2 className="featurette-heading">Aberto 24 horas.</h2>
             <p className="lead">
-              Funcionamos a todo momento, para te atender em todos os momentos.
+              Funcionamos 24 horas para te atender em todos os momentos.
               Ligue e faça sua reserva pelo telefone, ou entre em contato pelo
               WhatsApp.
             </p>
