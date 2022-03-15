@@ -5,7 +5,7 @@
 
 .imagem-logo {
   margin-left: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 #responsive-navbar-nav {
   justify-content: end;
@@ -14,7 +14,7 @@
   background: black;
   box-shadow: 3px 3px 3px green;
   margin: 8px;
-  padding: 10px;
+  padding: 8px;
   border-radius: 10px;
   text-transform: uppercase;
   text-align: center;

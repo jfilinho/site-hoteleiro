@@ -34,8 +34,8 @@ function App() {
             className="whatsapp"
           />
         </a>
-        <Rodape />
       </div>
+      <Rodape />
     </div>
   );
 }
