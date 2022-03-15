@@ -25,8 +25,8 @@ function About(){
               <img
                 className="bd-placeholder-img rounded-circle circle"
                 alt="img-circle"
-                width="300"
-                height="300"
+                width="290"
+                height="290"
                 src="./img/Hotel_Tulipa.gif"
               />
             </div>

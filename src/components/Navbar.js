@@ -14,7 +14,7 @@ function Top() {
           <img
             src="./img/logo.png"
             alt="logo"
-            width="150"
+            width="140"
             height="100"
             className="imagem-logo"
           />
