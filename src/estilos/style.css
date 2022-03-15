@@ -5,6 +5,7 @@
 
 .imagem-logo {
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 #responsive-navbar-nav {
   justify-content: end;
@@ -92,8 +93,7 @@
   color: green;
   font-size: 1.1rem;
 }
-.footer {
- position: absolute; 
+.footer { 
   bottom: 0px;
   width: 100%;
 }
