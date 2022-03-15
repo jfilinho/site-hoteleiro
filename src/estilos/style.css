@@ -57,7 +57,7 @@
   box-shadow: 3px 3px 3px white;
 }
 .description {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
   padding: 5px;
@@ -92,10 +92,10 @@
   padding-bottom: 20px;
   text-align: center;
   color: green;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .footer {
-  position: absolute;
+  position: fixed;
   margin-bottom: 0px;
   margin-top: 2px;
   width: 100%;
@@ -123,8 +123,8 @@
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
 }
 .icones-contato {
   display: flex;
@@ -191,10 +191,7 @@
   .contact .icones-contato:nth-child(2) {
     margin: 15px 0;
   }
-  .footer {
-    margin-bottom: 0px;
-    margin-top: 2px;
-  }
+
 }
 a[href^="”tel”"]:before {
   content: “\260e”;
