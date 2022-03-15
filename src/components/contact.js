@@ -55,7 +55,7 @@ function Contact() {
             </a>
             <span className="title-icones">Instagram</span>
             <p>
-              Estamos no instagram, siga-nos!!.
+              Siga nossa página do instagram!!.
             </p>
           </div>
         </div>
