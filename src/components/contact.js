@@ -1,12 +1,10 @@
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa"; 
 
 
 function Contact() {
 
     return (
       <div>
-        <h2 className="titulos">Entre em contato conosco:</h2>
+        <h2 className="titulos">Entre em contatos:</h2>
         <div className="container-fluid contact">
           <div className="icones-contato">
             <a
@@ -23,8 +21,8 @@ function Contact() {
             </a>
             <span className="title-icones">WhatsApp</span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis, placeat maxime amet modi nobis commodi.
+              Entre em contato pelo whatsapp a qualquer momento, te atendemos
+               e tiramos suas dúvidas.
             </p>
           </div>
           <div className="icones-contato">
@@ -41,8 +39,7 @@ function Contact() {
             </a>
             <span className="title-icones">Facebook</span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis, placeat maxime amet modi nobis commodi.
+              Conheça também a nossa página no facebook. 
             </p>
           </div>
           <div className="icones-contato">
@@ -58,8 +55,7 @@ function Contact() {
             </a>
             <span className="title-icones">Instagram</span>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis, placeat maxime amet modi nobis commodi.
+              Estamos no instagram, siga-nos!!.
             </p>
           </div>
         </div>

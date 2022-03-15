@@ -30,7 +30,7 @@ function App() {
         <img
           src="./img/whatsapp.png"
           alt="icone WhatsApp"
-          className="whatsapp"
+          className="whatsapp-link"
         />
       </a>
       <Rodape />
