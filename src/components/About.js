@@ -30,7 +30,7 @@ function About(){
                 alt="img-circle"
                 width="380"
                 height="380"
-                src="./img/logo.gif"
+                src="./img/Hotel_Tulipa.gif"
               />
             </div>
           </div>
