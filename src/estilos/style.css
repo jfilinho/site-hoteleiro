@@ -94,7 +94,7 @@
   font-size: 1.1rem;
 }
 .footer {
-  position: absolute; 
+  position: fixed;
   bottom: 0px;
   width: 100%;
 }
