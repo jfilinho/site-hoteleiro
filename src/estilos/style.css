@@ -178,14 +178,11 @@
   box-shadow: 3px 3px 3px black;
 }
 .whatsapp-link {
-position: fixed; 
-  width: 60px;
-  height: 60px;
-  border-radius: 50px;
-  border: 1px solid black;
-  box-shadow: 3px 3px 3px black;
-  padding:2px;
-  z-index: 5000;
+position: fixed;
+margin: 15px 0 0;
+margin: top 300px;
+z-index: 5000;
+bottom: 0px;
 }
 .facebook {
   width: 80px;

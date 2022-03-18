@@ -39,8 +39,7 @@ function About(){
                 <img
                   src="./img/whatsapp.png"
                   alt="icone WhatsApp"
-                  className="whatsapp"
-                />
+                 />
               </a>
             </div>
           </div>
