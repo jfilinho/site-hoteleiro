@@ -85,7 +85,7 @@ function Marketing() {
         </div>
         {/* fim da .row </div>  */}
       </div>
-      <div>
+      
         <a
           href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
               informações%20sobre%20hospedagem."
@@ -98,7 +98,7 @@ function Marketing() {
             className="whatsapp-link"
           />
         </a>
-      </div>
+      
     </div>
   );
 }
