@@ -133,20 +133,20 @@ function Album() {
                 />
               </div>
             </div>
-            <div className="whatsapp-link">
-              <a
-                href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
+          </div>
+          <div className="whatsapp-link">
+            <a
+              href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
               informações%20sobre%20hospedagem."
-                target="blank"
-                className="icons-contact"
-              >
-                <img
-                  src="./img/whatsapp.png"
-                  alt="icone WhatsApp"
-                  className="whatsapp"
-                />
-              </a>
-            </div>
+              target="blank"
+              className="icons-contact"
+            >
+              <img
+                src="./img/whatsapp.png"
+                alt="icone WhatsApp"
+                className="whatsapp"
+              />
+            </a>
           </div>
         </div>
       </div>

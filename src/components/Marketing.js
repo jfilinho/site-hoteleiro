@@ -16,7 +16,7 @@ function Marketing() {
             <h2>Academia</h2>
             <p className="paragraphs">
               Academia smartfit a 200 metros do hotel.
-             </p>
+            </p>
           </div>
           {/* <!-- /.col-lg-4 --> */}
           <div className="col-lg-4">
@@ -29,9 +29,7 @@ function Marketing() {
             />
 
             <h2>Mercado</h2>
-            <p>
-              Mercado extra do lado do nosso estabelecimento.
-            </p>
+            <p>Mercado extra do lado do nosso estabelecimento.</p>
           </div>
           {/* <!-- /.col-lg-4 --> */}
           <div className="col-lg-4">
@@ -44,9 +42,7 @@ function Marketing() {
             />
 
             <h2>Shooping</h2>
-            <p>
-              Shooping Center da Penha localizado a 1,5km.
-            </p>
+            <p>Shooping Center da Penha localizado a 1,5km.</p>
           </div>
           <div className="col-lg-4">
             <img
@@ -58,9 +54,7 @@ function Marketing() {
             />
 
             <h2>Metrô</h2>
-            <p>
-              Próximo a estação do metrô Vila Matilde da linha vermelha.
-            </p>
+            <p>Próximo a estação do metrô Vila Matilde da linha vermelha.</p>
           </div>
           <div className="col-lg-4">
             <img
@@ -72,9 +66,7 @@ function Marketing() {
             />
 
             <h2>Centro</h2>
-            <p>
-              Próximo ao centro comercial da Penha.
-            </p>
+            <p>Próximo ao centro comercial da Penha.</p>
           </div>
           <div className="col-lg-4">
             <img
@@ -86,14 +78,26 @@ function Marketing() {
             />
 
             <h2>Restaurante</h2>
-            <p>
-              Restaurante e panificadora ao lado do hotel.
-            </p>
+            <p>Restaurante e panificadora ao lado do hotel.</p>
           </div>
 
           {/* fim da .col-lg-4  */}
         </div>
         {/* fim da .row </div>  */}
+      </div>
+      <div className="whatsapp-link">
+        <a
+          href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
+              informações%20sobre%20hospedagem."
+          target="blank"
+          className="icons-contact"
+        >
+          <img
+            src="./img/whatsapp.png"
+            alt="icone WhatsApp"
+            className=""
+          />
+        </a>
       </div>
     </div>
   );
