@@ -184,9 +184,9 @@ margin-top:  80px;
 width: 70px;
 height: 70px;
 border-radius: 50px;
-float: left;
 z-index: 5000;
 bottom: 20px;
+right: 20px;
 border: 1px solid black;
 box-shadow: 3px 3px 3px black
 }
