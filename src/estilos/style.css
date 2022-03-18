@@ -184,9 +184,12 @@ margin-top:  80px;
 width: 80px;
 height: 80px;
 border-radius: 50px;
-margin-left: 1050px;
+margin-left: 1150px;
 z-index: 5000;
-bottom: 105px;
+bottom: 80px;
+border: 1px solid black;
+box-shadow: 3px 3px 3px black
+
 }
 .facebook {
   width: 80px;
@@ -205,7 +208,7 @@ bottom: 105px;
   padding:2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 768px) {
   .contact {
     grid-template-columns: 1fr;
   }
@@ -222,9 +225,8 @@ margin-top:  80px;
 width: 80px;
 height: 80px;
 border-radius: 50px;
-margin-left: 850px;
 z-index: 5000;
-bottom: 105px;
+bottom: 80px;
 }
 }
 a[href^="”tel”"]:before {
