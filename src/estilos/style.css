@@ -178,7 +178,7 @@
   box-shadow: 3px 3px 3px black;
 }
 .whatsapp-link {
-  position: fixed;
+  float: right;
   width: 60px;
   height: 60px;
   border-radius: 50px;
