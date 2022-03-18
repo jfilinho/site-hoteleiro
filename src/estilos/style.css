@@ -184,9 +184,9 @@ margin-top:  80px;
 width: 80px;
 height: 80px;
 border-radius: 50px;
-margin-left: 1150px;
+margin-left: 1200px;
 z-index: 5000;
-bottom: 80px;
+bottom: 40px;
 border: 1px solid black;
 box-shadow: 3px 3px 3px black
 
@@ -208,7 +208,7 @@ box-shadow: 3px 3px 3px black
   padding:2px;
 }
 
-@media (max-width: 768px) and (min-width: 768px) {
+@media (max-width: 768px){
   .contact {
     grid-template-columns: 1fr;
   }
@@ -225,9 +225,16 @@ margin-top:  80px;
 width: 80px;
 height: 80px;
 border-radius: 50px;
+margin-left: 500px;
 z-index: 5000;
 bottom: 80px;
 }
+}
+@media screen and(min-width: 768px) {
+  .whatsapp-link{
+    margin-left: 400px;
+  }
+  
 }
 a[href^="”tel”"]:before {
   content: “\260e”;
