@@ -181,15 +181,14 @@
 position: fixed;
 margin: 15px;
 margin-top:  80px;
-width: 80px;
-height: 80px;
+width: 70px;
+height: 70px;
 border-radius: 50px;
 float: left;
 z-index: 5000;
-bottom: 40px;
+bottom: 20px;
 border: 1px solid black;
 box-shadow: 3px 3px 3px black
-
 }
 .facebook {
   width: 80px;
@@ -215,7 +214,7 @@ box-shadow: 3px 3px 3px black
   .contact .icones-contato:nth-child(2) {
     margin: 15px 0;
   }
-.footer{
+/* .footer{
   margin-bottom:0px;
 }
 .whatsapp-link {
@@ -225,10 +224,10 @@ margin-top:  80px;
 width: 80px;
 height: 80px;
 border-radius: 50px;
-float: right;
+float: left;
 z-index: 5000;
-bottom: 80px;
-}
+bottom: 40px;
+} */
 }
 
 a[href^="”tel”"]:before {
