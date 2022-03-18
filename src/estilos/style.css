@@ -179,10 +179,10 @@
 }
 .whatsapp-link {
 position: fixed;
-margin: 15px 0 0;
-margin: top 300px;
-width: 50px;
-height: 50px;
+margin: 15px;
+margin-top:  80px;
+width: 80px;
+height: 80px;
 border-radius: 50px;
 margin-left: 950px;
 z-index: 5000;
