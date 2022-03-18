@@ -29,7 +29,7 @@ function About(){
                 src="./img/Hotel_Tulipa.gif"
               />
             </div>
-            <div className="">
+            <div>
               <a
                 href="https://wa.me/5511974751884?text=Olá,%20gostaria%20de%20mais%20
               informações%20sobre%20hospedagem."

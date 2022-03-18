@@ -184,9 +184,9 @@ margin-top:  80px;
 width: 80px;
 height: 80px;
 border-radius: 50px;
-margin-left: 950px;
+margin-left: 1050px;
 z-index: 5000;
-bottom: 100px;
+bottom: 105px;
 }
 .facebook {
   width: 80px;
@@ -214,6 +214,17 @@ bottom: 100px;
   }
 .footer{
   margin-bottom:0px;
+}
+.whatsapp-link {
+position: fixed;
+margin: 15px;
+margin-top:  80px;
+width: 80px;
+height: 80px;
+border-radius: 50px;
+margin-left: 850px;
+z-index: 5000;
+bottom: 105px;
 }
 }
 a[href^="”tel”"]:before {
