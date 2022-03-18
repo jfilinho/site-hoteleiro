@@ -230,7 +230,7 @@ z-index: 5000;
 bottom: 80px;
 }
 }
-@media screen and(min-width: 768px) {
+@media (min-width: 768px) {
   .whatsapp-link{
     margin-left: 400px;
   }
