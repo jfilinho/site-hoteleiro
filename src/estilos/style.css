@@ -191,7 +191,9 @@
   .contact .icones-contato:nth-child(2) {
     margin: 15px 0;
   }
-
+.footer{
+  margin-bottom:0px;
+}
 }
 a[href^="”tel”"]:before {
   content: “\260e”;

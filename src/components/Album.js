@@ -3,7 +3,7 @@ function Album() {
     <div>
       <h2 className="titulos">ACOMODAÇÕES</h2>
       <div className="album py-sm-0 bg-light">
-        <div className="container-fluid">
+        <div className="container-fluid mb-2">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div className="col">
               <div className="card shadow-sm photo-album">

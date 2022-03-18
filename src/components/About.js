@@ -20,7 +20,7 @@ function About(){
                 gente pelo whatsApp,telefone, facebook ou instagram.
               </p>
             </div>
-            <div className="col-md-auto d-flex justify-content-center align-items-center">
+            <div className="col-md-auto d-flex justify-content-center align-items-center mb-3">
               <img
                 className="bd-placeholder-img rounded-circle circle"
                 alt="img-circle"
