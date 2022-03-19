@@ -1,6 +1,18 @@
+
+/* Zerar margin e padding da página */
 *{
-  margin: 0px;padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
+
+/* Estilo fundo do site */
+.fundo-site {
+  background-image: url("../../public/img/fundo4.webp");
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilos da barra de navegação */
 .top {
   background: #a9bfb0;
   align-items: center;
@@ -28,6 +40,8 @@
 .text-color:hover {
   background-color: blue;
 }
+
+/* Estilos gif de logo hotel circular */
 .circular {
   border: 1px solid black;
   margin: left 5px;
@@ -40,6 +54,8 @@
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
 }
+
+/* Estilos dos títulos das sessões */
 .titulos {
   font-size: 2rem;
   color: green;
@@ -47,11 +63,8 @@
   margin-top: 45px;
   margin-bottom: 45px;
 }
-.fundo-site {
-  background-image: url("../../public/img/fundo4.webp");
-  height: 100%;
-  width: 100%;
-}
+
+/* Estilos da página de Acomodações */
 .album {
   background-image: url("../../public/img/fundo4.webp");
 }
@@ -59,18 +72,23 @@
   border: 2px solid white;
   box-shadow: 3px 3px 3px white;
 }
+
+/* Estilos descrição da página sobre */
 .description {
   font-size: 1.2rem;
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
   padding: 5px;
  }
+
+ /* Estilo do slide de espaços sociais */
 .slide-social {
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
   border-radius: 5px;
 }
 
+/* Estilo da imagem página home */
 .card-image {
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
@@ -87,43 +105,43 @@
   margin-top: 45px;
   padding: 10px;
 }
+
+/* Estilos do rodapé da página */
 .footer {
   width: 100%;
-  height: 120px;
-  margin-top: 10px;
+  height: 90px;
+  margin-top: 0px;
   background-color: #a9bfb0;
-
-
   position: relative;
 }
 
  .footer__social {
     width: 100%;
     padding-top: 8px;
-
     display: flex;
     justify-content: center;
  }
-
     a + a {
       margin-left: 8px;
-    }
-  
+    }  
 
   .footer__copyright {
     position: absolute;
-    bottom: 8px;
+    bottom: 5px;
 
     width: 100%;
     text-align: center;
     color: white;
   }
 
+/* Estilos icones de locais da  página home */
 .featurette {
   text-align: justify;
   align-items: center;
   margin-bottom: 10px;
 }
+
+/* Estilos do mapa de localização */
 .map {
   width: 100%;
   height: 400px;
@@ -155,20 +173,24 @@
 .title-icones {
   font-size: 1.5rem;
   font-weight: bold;
-  /* text-align: center; */
-  padding: 5px;
+   padding: 5px;
 }
 .icons-contact {
   font-size: 3.5rem;
 }
 .telefone {
-  background: #a9bfb0;
+  background: white;
   width: 80px;
   height: 80px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
 }
+a[href^="”tel”"]:before {
+  content: “\260e”;
+  margin-right: 0.5em;
+}
+
 .whatsapp {
   width: 80px;
   height: 80px;
@@ -207,6 +229,7 @@ box-shadow: 3px 3px 3px black
   padding:2px;
 }
 
+ /* Estilo responsivos dos icones de contatos */
 @media (max-width: 768px){
   .contact {
     grid-template-columns: 1fr;
@@ -217,7 +240,5 @@ box-shadow: 3px 3px 3px black
 
 }
 
-a[href^="”tel”"]:before {
-  content: “\260e”;
-  margin-right: 0.5em;
-}
+
+

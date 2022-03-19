@@ -79,11 +79,8 @@ function Marketing() {
 
             <h2>Restaurante</h2>
             <p>Restaurante e panificadora ao lado do hotel.</p>
-          </div>
-
-          {/* fim da .col-lg-4  */}
-        </div>
-        {/* fim da .row </div>  */}
+          </div> {/* fim da .col-lg-4  */}
+        </div> {/* fim da .row </div>  */}
       </div>
       
         <a
