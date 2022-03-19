@@ -16,7 +16,7 @@ function Rodape() {
           className=" link-icone"
           title="linkedin"
         >
-          <BsLinkedin />
+          <BsLinkedin size="40" color="#fff"/>
         </a>
         <a
           href="https://github.com/jfilinho"
@@ -35,11 +35,11 @@ function Rodape() {
           className=" link-icone"
           title="Facebook"
         >
-          <FaFacebook />
+          <FaFacebook size="40" color="#fff" />
         </a>
       </div>
       <p className="footer__copyright">
-        Desenvolvido por <FaHeart color="#B51942" /> João Filho
+          &copy; Copyright 2022 - Desenvolvido por - João Filho
       </p>
     </footer>
   );
