@@ -90,7 +90,7 @@
 .footer {
   width: 100%;
   height: 120px;
-  margin-top: 80px;
+  margin-top: 10px;
   background-color: blue;
 
 
@@ -214,20 +214,7 @@ box-shadow: 3px 3px 3px black
   .contact .icones-contato:nth-child(2) {
     margin: 15px 0;
   }
-/* .footer{
-  margin-bottom:0px;
-}
-.whatsapp-link {
-position: fixed;
-margin: 15px;
-margin-top:  80px;
-width: 80px;
-height: 80px;
-border-radius: 50px;
-float: left;
-z-index: 5000;
-bottom: 40px;
-} */
+
 }
 
 a[href^="”tel”"]:before {
