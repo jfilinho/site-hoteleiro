@@ -1,6 +1,5 @@
-
 /* Zerar margin e padding da página */
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -79,9 +78,9 @@
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
   padding: 5px;
- }
+}
 
- /* Estilo do slide de espaços sociais */
+/* Estilo do slide de espaços sociais */
 .slide-social {
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
@@ -109,30 +108,39 @@
 /* Estilos do rodapé da página */
 .footer {
   width: 100%;
-  height: 90px;
+  height: 100px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
   margin-top: 0px;
   background-color: #a9bfb0;
   position: relative;
 }
 
- .footer__social {
-    width: 100%;
-    padding-top: 8px;
-    display: flex;
-    justify-content: center;
- }
-    a + a {
-      margin-left: 8px;
-    }  
+.footer__social {
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
 
-  .footer__copyright {
-    position: absolute;
-    bottom: 5px;
+}
+a + a {
+  margin-left: 8px;
+}
 
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+.footer__copyright {
+  position: absolute;
+  bottom: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+  color: white;
+}
 
 /* Estilos icones de locais da  página home */
 .featurette {
@@ -173,7 +181,7 @@
 .title-icones {
   font-size: 1.5rem;
   font-weight: bold;
-   padding: 5px;
+  padding: 5px;
 }
 .icons-contact {
   font-size: 3.5rem;
@@ -194,23 +202,23 @@ a[href^="”tel”"]:before {
 .whatsapp {
   width: 80px;
   height: 80px;
-  padding:2px;
+  padding: 2px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
 }
 .whatsapp-link {
-position: fixed;
-margin: 15px;
-margin-top:  80px;
-width: 70px;
-height: 70px;
-border-radius: 50px;
-z-index: 5000;
-bottom: 20px;
-right: 20px;
-border: 1px solid black;
-box-shadow: 3px 3px 3px black
+  position: fixed;
+  margin: 15px;
+  margin-top: 80px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  z-index: 5000;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
 }
 .facebook {
   width: 80px;
@@ -218,7 +226,7 @@ box-shadow: 3px 3px 3px black
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
-  padding:2px;
+  padding: 2px;
 }
 .instagram {
   width: 80px;
@@ -226,19 +234,15 @@ box-shadow: 3px 3px 3px black
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 3px 3px 3px black;
-  padding:2px;
+  padding: 2px;
 }
 
- /* Estilo responsivos dos icones de contatos */
-@media (max-width: 768px){
+/* Estilo responsivos dos icones de contatos */
+@media (max-width: 768px) {
   .contact {
     grid-template-columns: 1fr;
   }
   .contact .icones-contato:nth-child(2) {
     margin: 15px 0;
   }
-
 }
-
-
-
