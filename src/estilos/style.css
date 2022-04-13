@@ -188,7 +188,8 @@ text-align: center;
   font-size: 3.5rem;
 }
 .telefone {
-  background: white;
+  background: #2962ff;
+  padding:2px;
   width: 80px;
   height: 80px;
   border-radius: 10px;
