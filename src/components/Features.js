@@ -13,6 +13,12 @@ function Feature() {
               Temos um espaço amplo no estabelecimento, para garantir seu
               conforto e bem estar.
             </p>
+            <ul className="lead list-style-none">
+              <li>Sala de espera.</li>
+              <li>Quartos para casal.</li>
+              <li>Quartos para solteiro.</li>
+              <li>Não temos estacionamento próprio.</li>
+            </ul>
           </div>
           <div className="col-md-6">
             <Carousel>
@@ -27,7 +33,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco7.jpg"
+                  src="./img/espaco_07.png"
                   alt="Second foto"
                   height="497"
                 />
@@ -35,7 +41,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco8.jpg"
+                  src="./img/espaco_08.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -43,7 +49,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco5.jpg"
+                  src="./img/espaco_05.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -51,7 +57,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco9.jpg"
+                  src="./img/espaco_09.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -59,7 +65,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco3.jpg"
+                  src="./img/espaco_03.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -67,7 +73,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco11.jpg"
+                  src="./img/espaco_11.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -75,7 +81,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco6.jpg"
+                  src="./img/espaco_06.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -83,7 +89,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco4.jpg"
+                  src="./img/espaco_04.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -91,7 +97,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco2.jpg"
+                  src="./img/espaco_02.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -111,7 +117,16 @@ function Feature() {
               Funcionamos 24 horas para te atender em todos os momentos. Ligue e
               faça sua reserva pelo telefone, ou entre em contato pelo WhatsApp.
             </p>
+            <ul className="lead list-style-none">
+              <li>Pernoites para casal.</li>
+              <li>Pernoites para solteiro.</li>
+              <li>Diárias para casal.</li>
+              <li>Diárias para solteiro.</li>
+            </ul>
           </div>
+         
+           
+          
           <div className="col-md-6">
             <Card>
               <img

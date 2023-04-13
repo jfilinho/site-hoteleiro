@@ -68,6 +68,7 @@ function Marketing() {
             <h2>Centro</h2>
             <p>Próximo ao centro comercial da Penha.</p>
           </div>
+
           <div className="col-lg-4">
             <img
               className="bd-placeholder-img rounded-circle circle"
@@ -79,6 +80,18 @@ function Marketing() {
 
             <h2>Restaurante</h2>
             <p>Restaurante e panificadora ao lado do hotel.</p>
+          </div> {/* fim da .col-lg-4  */}
+          <div className="col-lg-12">
+            <img
+              className="bd-placeholder-img rounded-circle circle"
+              width="140"
+              height="140"
+              src="./img/taxi_1.jpg"
+              alt="icone de academia"
+            />
+
+            <h2>Ponto de Táxi</h2>
+            <p>Ponto de táxi à frente do estabelecimento.</p>
           </div> {/* fim da .col-lg-4  */}
         </div> {/* fim da .row </div>  */}
       </div>
