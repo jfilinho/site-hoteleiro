@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { ImHome } from "react-icons/im";
 import { AiFillInfoCircle } from "react-icons/ai";
-import { MdBedroomChild } from "react-icons/md";
+import { AiFillPicture } from "react-icons/ai";
 import { IoMdContact } from "react-icons/io";
 
 function Top() {
@@ -48,9 +48,9 @@ function Top() {
               href="/acomodacao"
             >
               <span className="icones">
-                <MdBedroomChild />
+                <AiFillPicture />
               </span>
-              Acomodações
+              Galeria
             </Nav.Link>
             <Nav.Link
               eventKey="4"

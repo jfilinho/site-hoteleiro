@@ -6,16 +6,16 @@ function Slide() {
         <Carousel className="slide">
           <Carousel.Item interval={2000}>
             <img
-              className="d-block w-100 fluid "
+              className="d-block w-100"
               src="./img/capa.png"
               alt="First slide"
               height="550"
             />
-          </Carousel.Item>
+          </Carousel.Item >
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/slide_2.jpg"
+              src="./img/image1.png"
               alt="Second slide"
               height="550"
             />
@@ -23,7 +23,7 @@ function Slide() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./img/imagem3.jpg"
+              src="./img/Hotel_Tulipa.gif"
               alt="Third slide"
               height="550"
             />

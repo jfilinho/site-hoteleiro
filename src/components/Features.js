@@ -6,7 +6,7 @@ function Feature() {
     <>
       <div className="container-fluid">
         <h2 className="titulos">Espaço Social</h2>
-        <div class="row featurette">
+        <div className="row featurette espaco-social">
           <div className="col-md-6">
             <h2 className="featurette-heading">Nosso Espaço.</h2>
             <p className="lead">
@@ -33,7 +33,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_07.png"
+                  src="./img/frente1.png"
                   alt="Second foto"
                   height="497"
                 />
@@ -41,7 +41,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_08.png"
+                  src="./img/area_interna2.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -49,7 +49,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_05.png"
+                  src="./img/area_interna1.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -57,7 +57,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_09.png"
+                  src="./img/area_interna3.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -65,7 +65,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_03.png"
+                  src="./img/area_recepcao1.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -73,7 +73,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_11.png"
+                  src="./img/area_recepcao2.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -81,7 +81,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_06.png"
+                  src="./img/sala_espera1.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -89,7 +89,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_04.png"
+                  src="./img/sala_espera2.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -97,7 +97,7 @@ function Feature() {
               <Carousel.Item>
                 <img
                   className="slide-social w-100"
-                  src="./img/espaco_02.png"
+                  src="./img/corredor1.png"
                   alt="Third slide"
                   height="497"
                 />
@@ -110,7 +110,7 @@ function Feature() {
       {/* fim da primeira feature */}
       <div className="container-fluid">
         <h2 className="titulos">Como Trabalhamos?</h2>
-        <div class="row featurette">
+        <div className="row featurette espaco-social">
           <div className="col-md-6">
             <h2 className="featurette-heading">Aberto 24 horas.</h2>
             <p className="lead">

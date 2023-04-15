@@ -1,8 +1,8 @@
 function Marketing() {
   return (
-    <div>
+    <div >
       <h2 className="titulos"> O que temos por perto:</h2>
-      <div className="container marketing">
+      <div className="container-fluid marketing">
         <div className="row">
           <div className="col-lg-4">
             <img
